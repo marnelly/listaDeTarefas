@@ -41,5 +41,16 @@ input {
 }
 
 .ulTarefas li {
-    list-style: none;
+    margin-top: 5px;
+    list-style:circle;
+    font-size: 20px;
+}
+
+.apagar {
+    padding: 3px;
+    border-radius: 5px;
+    font-weight: bolder;
+    border-color: red;
+    width: 23px;
+    height: 23px;
 }

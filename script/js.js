@@ -35,7 +35,8 @@ function criaTarefa() {
 function criaBtnApagar(li) {
     li.innerHTML += ' '
     let btnApagar = document.createElement('button')
-    btnApagar.innerHTML = 'Apagar'
+    btnApagar.innerHTML = 'X'
+    btnApagar.style.color = 'Red'
     btnApagar.setAttribute('class', 'apagar')
     li.appendChild(btnApagar)
 }
