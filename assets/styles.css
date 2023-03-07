@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    width: 1000px;
+    margin: auto;
+    font-family: 'Roboto';
+}
+
+.content h1 {
+    display: flex;
+    justify-content: center;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.btnTarefa {
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 10px;
+    background-color: rgba(0, 128, 0, 0.664);
+}
+
+.ulTarefas {
+    padding: 20px;
+}
+
+.ulTarefas li {
+    list-style: none;
+}
