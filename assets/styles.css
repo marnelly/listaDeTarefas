@@ -34,6 +34,8 @@ input {
     border-radius: 5px;
     margin-top: 10px;
     background-color: rgba(0, 128, 0, 0.664);
+    box-shadow: 3px 3px 10px 0px;
+    cursor: pointer;
 }
 
 .ulTarefas {
@@ -53,4 +55,5 @@ input {
     border-color: red;
     width: 23px;
     height: 23px;
+    cursor: pointer;
 }
